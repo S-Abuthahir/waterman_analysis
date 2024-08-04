@@ -37,8 +37,6 @@ def send_mail(to_email,name,phone,address,time,canName,canCapacity,Mode,amount):
     server.sendmail(email,to_email,email_message.as_string())
     server.close()
 
-#email = "abuthahirshaikhmohamed@gmail.com"
-
 
 send_mail(sys.argv[1],sys.argv[2],sys.argv[3],sys.argv[4],sys.argv[5],sys.argv[6],sys.argv[7],sys.argv[8],sys.argv[9])
     
